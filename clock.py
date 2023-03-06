@@ -1,8 +1,7 @@
 import tkinter as tk
 import time 
 
-# testing
-# new v1.1
+# test git
 def main():
     def tick():
         now = time.strftime('%H:%M:%S')
