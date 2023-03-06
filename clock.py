@@ -1,6 +1,8 @@
 import tkinter as tk
 import time 
 
+
+# testing
 def main():
     def tick():
         now = time.strftime('%H:%M:%S')
@@ -18,6 +20,7 @@ def main():
     label = tk.Label(window, text='00:00:00', font=('Arial', 250, 'bold'), fg='white', bg='black')
     label.place(relx=0.5, rely=0.5, anchor=tk.CENTER)
     tick()
+    
     window.mainloop()
 
 if __name__ == "__main__":
