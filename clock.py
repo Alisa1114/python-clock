@@ -3,6 +3,7 @@ import time
 
 
 # testing
+# new v1.1
 def main():
     def tick():
         now = time.strftime('%H:%M:%S')
