@@ -1,7 +1,6 @@
 import tkinter as tk
 import time 
 
-
 # testing
 # new v1.1
 def main():
